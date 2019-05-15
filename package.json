@@ -1,0 +1,17 @@
+{
+  "name": "openApi",
+  "version": "1.0.0",
+  "description": "An Api template to get projects started quickly",
+  "main": "index.js",
+  "author": "Remigius Kalimba",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "firebase-admin": "^7.3.0",
+    "graphql": "^14.2.1"
+  }
+}
